@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         // Object & Class
-        Circle circle = new Circle("Red", 7);
-        System.out.println("Circle color: " + circle.getColor());
-        System.out.println("Circle area: " + circle.getArea());
+        wood circle = new wood("brown", 2, 4);
+        System.out.println("Wood color: " + circle.getColor());
+        System.out.println("Wood area: " + circle.getArea());
         
         // Inheritance
         Car car = new Car("Toyota");

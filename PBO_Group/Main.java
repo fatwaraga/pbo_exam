@@ -18,8 +18,8 @@ public class Main {
         vehicle.start();
         
         // Immutable Object
-        Size<Integer> point = new Size<>(10, 5);
-        System.out.println("(length: " + point.getX() + ") (width: " + point.getY() + ")");
+        Size<Integer> size = new Size<>(10, 500);
+        System.out.println("(length: " + size.getX() + ") (width: " + size.getY() + ")");
         
         // Generic & Interface
         Stack<Integer> stack = new ArrayStack<>(5);
